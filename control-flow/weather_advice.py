@@ -3,7 +3,7 @@
 # prompt user for weather input
 
 
-weather = input("What's the weather like today? {sunny/rainy/cold}: " )
+weather = input("What's the weather like today? (sunny/rainy/cold): " )
 
 # provide clothing recommendations based on weather input
 
