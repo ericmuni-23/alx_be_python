@@ -3,7 +3,7 @@
 # prompt user for weather input
 # provide clothing recommendations based on weather input
 
-weather = input('Whats the weather like today? {sunny/rainy/cold}: ')
+weather = input('What"s the weather like today? {sunny/rainy/cold}: ')
 
 if weather == 'sunny':
     print('Recommendation: Wear a t-shirt and sun_glasses')
