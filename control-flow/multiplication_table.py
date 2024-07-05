@@ -1,7 +1,5 @@
 #!/usr/bin/env python3
 
-# multiplication_table.py
-
 def main():
     # Prompt user for a number
     try:
