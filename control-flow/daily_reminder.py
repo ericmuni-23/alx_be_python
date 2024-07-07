@@ -1,13 +1,13 @@
 #!/usr/bin/env python3
 
 # Prompt for a single task
-task = input("Enter the task description: ")
+task = input("Enter your task:")
 
 # Prompt for the task’s priority
-priority = input("Enter the task’s priority (high, medium, low): ").lower()
+priority = input("Priority (high, medium, low): ").lower()
 
 # Ask if the task is time-bound
-time_bound = input("Is the task time-bound? (yes or no): ").lower()
+time_bound = input("Is the time-bound? (yes or no): ").lower()
 
 # Initialize the reminder message
 reminder_message = ""
