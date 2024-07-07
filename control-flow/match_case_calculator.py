@@ -5,8 +5,8 @@ def main ():
 
     try:
             num1 = float (input('Enter the first number:'))
-            num2 = float (input('enter the second number:'))
-    except  ValueError:
+            num2 = float (input('Enter the second number:'))
+    except ValueError:
           print('Invalid input.Please entr numeric values.')
           return
     operation = input('Choose the operaration (+, -, *, /):')
