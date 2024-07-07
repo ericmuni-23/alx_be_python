@@ -9,7 +9,7 @@ def main ():
     except  ValueError:
           print('Invalid input.Please entr numeric values.')
           return
-    operation = input('Choose the operaration (+, -, *, ?):')
+    operation = input('Choose the operaration (+, -, *, /):')
 
     match operation:
         case '+':
@@ -28,7 +28,7 @@ def main ():
                 result = num1 / num2
                 print(f"The result is {result}.")
         case _:
-            print("Invalid operation. Please choose one of +, -, *, /.")
+            print("Invalid operation. Please choose one of +, -, *, / .")
 
 if __name__ == "__main__":
     main()
