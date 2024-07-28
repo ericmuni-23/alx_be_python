@@ -13,5 +13,5 @@ class Calculator:
 
 
 # Example usage:
-print(Calculator.add(6, 7))  # Output: 113
+print(Calculator.add(10, 5))  # Output: 13
 print(Calculator.multiply(5, 6))  # Output: Calculation Type: Arithmetic Operations, 30
