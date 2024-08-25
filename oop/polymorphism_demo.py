@@ -19,15 +19,3 @@ class Circle(Shape):
 
     def area(self):
         return math.pi * (self.radius ** 2)
-
-
-# main.py (Provided for Testing)
-from polymorphism_demo import Rectangle, Circle
-
-# Create instances of Rectangle and Circle
-rect = Rectangle(4, 5)
-circle = Circle(3)
-
-# Calculate and print the areas
-print(f"Rectangle area: {rect.area()}")
-print(f"Circle area: {circle.area()}")
