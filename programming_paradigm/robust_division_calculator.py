@@ -1,3 +1,4 @@
+#!/usr/bin/env python3
 def safe_divide(numerator, denominator):
     try:
         numerator = float(numerator)
