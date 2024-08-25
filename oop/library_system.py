@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 class Book:
-    def __str__(self, title, author):
+    def __init__(self, title, author):
         self.title = title
         self.author = author
 
@@ -15,7 +15,7 @@ class PrintBook(Book):
         self.page_count = page_count
 
 class Library:
-    def __str__(self):
+    def __init__(self):
         self.books = []
 
     def add_book(self, book):
