@@ -10,8 +10,3 @@ class Calculator:
     def multiply(cls, a, b):
         print(f"Calculation Type: {cls.calculation_type}")
         return a * b
-
-
-# Example usage:
-print(Calculator.add(10, 5))  # Output: 13
-print(Calculator.multiply(5, 6))  # Output: Calculation Type: Arithmetic Operations, 30
