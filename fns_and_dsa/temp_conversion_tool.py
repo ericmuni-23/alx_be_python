@@ -20,7 +20,7 @@ def main():
                 converted_temperature = convert_to_celsius(temperature)
                 print(f"{temperature}°F is {converted_temperature}°C")
             else:
-                raise ValueError("Invalid unit. Please enter C or F.")
+                raise ValueError("Invalid temperature. Please enter a numeric value.")
         except ValueError as e:
             print(str(e))
 
